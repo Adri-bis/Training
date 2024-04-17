@@ -29,9 +29,9 @@ function Algo() {
   const oka = finish.join("-");
 
   console.log(oka);
-  // const texte = "je m'apelle adrien";
-  // const modif = texte.split(" ");
-  // console.log(modif);
+  const texte = "je m'apelle adrien";
+  const modiff = texte.split(" ");
+  console.log(modiff);
   // let finish = [];
   // for (let i = 0; i < modif.length; i++) {
   //   const result = modif[i].charAt(0).toUpperCase() + modif[i].slice(1);
