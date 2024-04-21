@@ -32,7 +32,7 @@ function Algo() {
   const texte = "je m'apelle adrien";
   const modiff = texte.split(" ");
   console.log(modiff);
-  // let finish = [];
+  let finish = [];
   // for (let i = 0; i < modif.length; i++) {
   //   const result = modif[i].charAt(0).toUpperCase() + modif[i].slice(1);
   //   finish.push(result);
