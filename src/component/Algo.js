@@ -28,6 +28,13 @@ function Algo() {
 
   const oka = finish.join("-");
 
+  const nombre = 8;
+  let jeux = 10;
+  let fifi;
+  for (let i = 0; i < nombre; i++) {
+    fifi = jeux += 1;
+  }
+  console.log(fifi);
   // console.log(oka);
   // const texte = "je m'apelle adrien";
   // const modiff = texte.split(" ");
