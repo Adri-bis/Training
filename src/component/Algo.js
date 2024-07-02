@@ -36,7 +36,7 @@ function Algo() {
   }
   console.log(fifi);
 
-  console.log(oka);
+  // console.log(oka);
   // const texte = "je m'apelle adrien";
   // const modiff = texte.split(" ");
   // console.log(modiff);
