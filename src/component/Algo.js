@@ -36,33 +36,33 @@ function Algo() {
   }
   console.log(fifi);
 
-  // console.log(oka);
-  // const texte = "je m'apelle adrien";
-  // const modiff = texte.split(" ");
-  // console.log(modiff);
-  // let finish = [];
-  // for (let i = 0; i < modif.length; i++) {
-  //   const result = modif[i].charAt(0).toUpperCase() + modif[i].slice(1);
-  //   finish.push(result);
-  // }
-  // let final = finish.join(" ");
-  // console.log(final);
-  // for (let i = 0; i < modif.length; i += 3) {}
+  console.log(oka);
+  const texte = "je m'apelle adrien";
+  const modiff = texte.split(" ");
+  console.log(modiff);
+  let finish = [];
+  for (let i = 0; i < modif.length; i++) {
+    const result = modif[i].charAt(0).toUpperCase() + modif[i].slice(1);
+    finish.push(result);
+  }
+  let final = finish.join(" ");
+  console.log(final);
+  for (let i = 0; i < modif.length; i += 3) {}
 
-  // const s = "test";
-  // const t = s.split("");
-  // const Le = t.length;
-  // const Ml = Le % 2;
-  // let result = [];
-  // const id = Le / 2;
-  // if (Ml === 0) {
-  //   result.push(t[id - 1]) + result.push(t[id]);
-  // }
+  const s = "test";
+  const t = s.split("");
+  const Le = t.length;
+  const Ml = Le % 2;
+  let result = [];
+  const id = Le / 2;
+  if (Ml === 0) {
+    result.push(t[id - 1]) + result.push(t[id]);
+  }
 
-  // const FR = result.join("");
-  // console.log(FR);
+  const FR = result.join("");
+  console.log(FR);
 
   return finish;
 }
 
-export default Algo;
+// export default Algo;
